@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using oauth2.Business.Implementation;
 using oauth2.Model.Entity;
+using oauth2.Services.Data;
 
 namespace oauth2.Services.Controllers
 {
@@ -9,15 +10,10 @@ namespace oauth2.Services.Controllers
     public class AddressController : AbstractController<Address>
     {
         private readonly IAddress _addressRepository;
-        public AddressController(IAddress addressRepository) //, 
+        public AddressController(DataContext context, IAddress addressRepository) //, 
         {
+            this.context = context;
             _addressRepository = addressRepository;
-        }
-
-        [HttpGet]
-        public Address GetAddress()
-        {
-            return _addressRepository.GetAddress();
         }
     }
 }
