@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\healthDome\\oauth2.Services\\oauth2.Services\\oauth2.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\healthDome\\oauth2.Services\\oauth2.Business\\oauth2.Business.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\healthDome\\oauth2.Services\\oauth2.Business\\oauth2.Business.csproj",
+        "projectName": "oauth2.Business",
+        "projectPath": "D:\\healthDome\\oauth2.Services\\oauth2.Business\\oauth2.Business.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\healthDome\\oauth2.Services\\oauth2.Model\\oauth2.Model.csproj": {
+                "projectPath": "D:\\healthDome\\oauth2.Services\\oauth2.Model\\oauth2.Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\healthDome\\oauth2.Services\\oauth2.Model\\oauth2.Model.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\healthDome\\oauth2.Services\\oauth2.Model\\oauth2.Model.csproj",
+        "projectName": "oauth2.Model",
+        "projectPath": "D:\\healthDome\\oauth2.Services\\oauth2.Model\\oauth2.Model.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\healthDome\\oauth2.Services\\oauth2.Services\\oauth2.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\healthDome\\oauth2.Services\\oauth2.Services\\oauth2.Services.csproj",
+        "projectName": "oauth2.Services",
+        "projectPath": "D:\\healthDome\\oauth2.Services\\oauth2.Services\\oauth2.Services.csproj",
+        "packagesPath": "C:\\Users\\jeancarlos\\.nuget\\packages\\",
+        "outputPath": "D:\\healthDome\\oauth2.Services\\oauth2.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jeancarlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\healthDome\\oauth2.Services\\oauth2.Business\\oauth2.Business.csproj": {
+                "projectPath": "D:\\healthDome\\oauth2.Services\\oauth2.Business\\oauth2.Business.csproj"
+              },
+              "D:\\healthDome\\oauth2.Services\\oauth2.Model\\oauth2.Model.csproj": {
+                "projectPath": "D:\\healthDome\\oauth2.Services\\oauth2.Model\\oauth2.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

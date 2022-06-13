@@ -1,0 +1,6 @@
+D:\healthDome\oauth2.Services\oauth2.Model\bin\Debug\oauth2.Model.dll
+D:\healthDome\oauth2.Services\oauth2.Model\bin\Debug\oauth2.Model.pdb
+D:\healthDome\oauth2.Services\oauth2.Model\obj\Debug\oauth2.Model.csproj.AssemblyReference.cache
+D:\healthDome\oauth2.Services\oauth2.Model\obj\Debug\oauth2.Model.csproj.CoreCompileInputs.cache
+D:\healthDome\oauth2.Services\oauth2.Model\obj\Debug\oauth2.Model.dll
+D:\healthDome\oauth2.Services\oauth2.Model\obj\Debug\oauth2.Model.pdb
