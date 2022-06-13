@@ -46,7 +46,7 @@ namespace oauth2.Services.Controllers
 
             string token = CreateToken(user);
 
-            return Ok("My crazy token ");
+            return Ok(token);
         }
 
         private string CreateToken(User user)
